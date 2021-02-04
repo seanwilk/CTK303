@@ -1,0 +1,101 @@
+body {
+  background-image: url(space.jpeg);
+  
+}
+
+nav ul {
+text-align: center;
+list-style-type: none;
+}
+
+nav a {
+  padding: 10px;
+  margin: 30px;
+  display: inline-block;
+  background-color: gold;
+  border-radius: 25px;
+  width: 500px;
+  color: black;
+  transition: background-color 1.0s, width 2.0s, color 2.0s;
+}
+
+nav a:hover {
+  background-color: white;
+  width: 200px;
+  color: black;
+}
+
+.dark {
+
+}
+
+.ship2 {
+  position: absolute;
+  top: 0;
+  left: -1000;
+  width: 2px;
+  height: 2px;
+  border-radius: 5px;
+  animation: ship2 5s linear infinite;
+}
+
+@keyframes ship2 {
+  0% {
+    opacity: 1;
+    top: 500px;
+    left: -1000px;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1.0;
+    left: 1500px;
+  }
+}
+
+
+.death {
+  position: absolute;
+  border-radius: 5px;
+  animation: death 10s linear infinite;
+}
+
+@keyframes death {
+  0% {
+    opacity: 1;
+    top: 110px;
+    left: 2000px
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1.0;
+    top: 0px;
+    left: -1000px;
+
+  }
+}
+
+#logo {
+  text-align: center;
+  display:
+  width: 500px;
+  height: auto;
+  overflow: hidden;
+}
+
+#logo img {
+
+  width: 400px;
+  transition: all .25s;
+}
+
+#logo:hover img {
+  transform: scale(1.2);
+}
