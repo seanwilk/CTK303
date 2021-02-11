@@ -1,0 +1,12 @@
+<svg id="Line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 801 11">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ee3524;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="0.5" y="0.5" width="800" height="10"/>
+</svg>
