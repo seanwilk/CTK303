@@ -79,7 +79,7 @@ li {
   font-weight: bold;
 }
 
-@media all and (min-width: 30em){
+@media all and (min-width: 40em){
   nav ul { grid-template-columns: repeat(3, 1fr); }
   nav ul {margin-bottom: 1em;}
   img { width: 50%; float: right; }
