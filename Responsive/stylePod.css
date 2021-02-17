@@ -8,6 +8,7 @@ h1 {
   text-align: center;
   border: 2px solid black;
   background-color: #decbf0;
+  padding: 1em;
 }
 
 h2 {
@@ -18,34 +19,48 @@ p {
   border: 2px solid black;
   background-color: #decbf0;
   text-align: center;
-  margin: 1em;
+  padding: 2em;
 }
 
 img {
   width: 100%;
   margin-top: 1em;
+  display: block;
+
 }
 
 #link1 {
   border: 2px solid black;
   padding: 1em;
-  background-color: #decbf0;
+  background-color: tan;
 }
 
 li:hover {
   transform: scale(1.05);
 }
 
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #decbf0;
+}
+
 #link2 {
   border: 2px solid black;
   padding: 1em;
-  background-color: #decbf0;
+  background-color: tan;
 }
 
 #link3 {
   border: 2px solid black;
   padding: 1em;
-  background-color: #decbf0;
+  background-color: tan;
 }
 
 nav ul {
@@ -53,7 +68,7 @@ nav ul {
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1fr 1fr 1fr);
   grid-column-gap: 1em;
   grid-row-gap: 1em;
 }
@@ -65,5 +80,7 @@ li {
 }
 
 @media all and (min-width: 30em){
-  h1 { color: blue; }
-}
+  nav ul { grid-template-columns: repeat(3, 1fr); }
+  nav ul {margin-bottom: 1em;}
+  img { width: 50%; float: right; }
+  p {display: flex;}
